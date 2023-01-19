@@ -24,8 +24,8 @@ function squareAndFindEvens(numbers){
   });
   var evens = squares.filter(function(square){
     return square % 2 === 0;
-  });
-  return evens;
+    });
+   return evens;
 }
 
 Replace ALL functions with arrow functions:
